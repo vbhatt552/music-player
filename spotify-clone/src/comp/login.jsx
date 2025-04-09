@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export default function Login() {
   const handleClick = () => {
-    const clientId = "42dbf64f4df44eb9a58cc11c95da64f4";
+    const clientId = "{api_key}";
     const redirectUrl = "http://localhost:5173/";
     const apiUrl = "https://accounts.spotify.com/authorize";
     const scope = [
